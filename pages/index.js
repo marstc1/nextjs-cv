@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Container } from "../components/container/Container";
-import { Heading } from "../components/heading/heading";
+import { Heading } from "../components/heading/Heading";
 import Image from "next/image";
 
 import data from "../data/data";
