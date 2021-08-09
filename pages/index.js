@@ -20,10 +20,6 @@ export default function Home() {
         <title>Chris Marston - CV</title>
         <meta name="description" content="Chris Marston - CV" />
         <link rel="icon" href="/favicon.ico" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Lato"
-          rel="stylesheet"
-        />
       </Head>
 
       <main>
