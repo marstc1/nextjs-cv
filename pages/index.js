@@ -20,10 +20,6 @@ export default function Home() {
         <title>Chris Marston - CV</title>
         <meta name="description" content="Chris Marston - CV" />
         <link rel="icon" href="/favicon.ico" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Lato"
-          rel="stylesheet"
-        />
       </Head>
 
       <main>
@@ -51,7 +47,10 @@ export default function Home() {
                 </Heading>
 
                 <div className="flex grid grid-cols-1 gap-2 mt-6 mb-1">
-                  <a className="flex justify-center text-sm" href="07771348547">
+                  <a
+                    className="flex justify-center text-sm"
+                    href="tel:07771348547"
+                  >
                     07771 348547
                   </a>
                   <a
