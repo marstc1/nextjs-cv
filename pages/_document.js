@@ -16,7 +16,6 @@ class MyDocument extends Document {
           record of delivering high quality web applications for high profile brands.  Click on those blue words above to find out more."
           />
           <meta charset="utf-8" />
-          <meta name="robots" content="noindex, nofollow" />
           <meta name="viewport" content="width=device-width" />
 
           <link
