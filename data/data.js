@@ -1,7 +1,6 @@
 import { Container } from "../components/container/Container";
 import DefinitionList from "../components/definitionList/DefinitionList";
 import UnorderedList from "../components/unorderedList/UnorderedList";
-import profilePic from "../public/me.jpg";
 import Link from "next/link";
 import { PencilFill, TelephoneFill } from "styled-icons/bootstrap";
 import { Globe, Mail } from "styled-icons/entypo";
@@ -14,7 +13,7 @@ const data = {
   personalInfo: {
     firstName: "Chris",
     lastName: "Marston",
-    profilePic: profilePic,
+    profilePic: "/me.jpg",
     profile: (
       <>
         <p>
