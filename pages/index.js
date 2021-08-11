@@ -1,7 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import { Container } from "../components/container/Container";
 import { Heading } from "../components/heading/Heading";
-import Image from "next/image";
 
 import data from "../data/data";
 import TimelineList from "../components/timelineList/TimelineList";
@@ -29,7 +29,12 @@ export default function Home() {
               <Container tag={Container.tags.header} role="banner">
                 <div className="flex justify-center">
                   <div className="overflow-hidden mb-2 border-8 border-white border-solid h-52 w-52 rounded-full shadow-xl">
-                    <Image src={personalInfo.profilePic} alt="Chris Marston" />
+                    <img
+                      src={personalInfo.profilePic}
+                      alt="Chris Marston"
+                      height="200"
+                      width="200"
+                    />
                   </div>
                 </div>
 
