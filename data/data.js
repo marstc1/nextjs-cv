@@ -210,21 +210,17 @@ const data = {
     {
       id: "telephone",
       icon: <TelephoneFill className="inline h-7 w-7 mr-3 text-blue-500" />,
-      name: <a href="tel:07771348547">07771 348547</a>,
+      name: "07771 348547",
     },
     {
       id: "email",
       icon: <Mail className="inline h-7 w-7 mr-3 text-blue-500" />,
-      name: (
-        <a href="mailto:christopher.marston@hotmail.co.uk">
-          christopher.marston@hotmail.co.uk
-        </a>
-      ),
+      name: "christopher.marston@hotmail.co.uk",
     },
     {
       id: "website",
       icon: <Globe className="inline h-7 w-7 mr-3 text-blue-500" />,
-      name: <Link href="/">www.chris-marston.co.uk</Link>,
+      name: "www.chris-marston.co.uk",
     },
   ],
 };

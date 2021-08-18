@@ -1,4 +1,4 @@
-import { Star } from "styled-icons/evaicons-solid";
+import { CircleFill } from "styled-icons/bootstrap";
 import UnorderedList from "../unorderedList/UnorderedList";
 
 const TimelineList = ({ listData }) => {
@@ -7,18 +7,18 @@ const TimelineList = ({ listData }) => {
       {listData.map((item) => (
         <li
           key={item.rightHeading}
-          className={`relative pl-8 pb-4 md:ml-32 lg:ml-52 ${
+          className={`relative pl-8 md:ml-32 lg:ml-52 ${
             item !== listData[listData.length - 1]
-              ? "border-l border-solid border-gray-200"
+              ? "border-l border-solid border-gray-200 pb-14"
               : ""
           }`}
         >
-          <Star className="absolute -left-2 h-5 w-4 border-8 border-blue-500 rounded-full" />
+          <CircleFill className="absolute -left-3 h-5 w-5 text-white border-2 rounded-full border-blue-500 transition-colors duration-500 timeline-circle" />
           <div className="font-bold">{item.rightHeading}</div>
           <div className="text-sm">
             {item.subHeading} {item.notes}
           </div>
-          <div className="flex gap-x-0.5 md:inline-block md:text-right md:absolute md:top-0 pr-4 md:w-24 md:-left-24 lg:w-44 lg:-left-44">
+          <div className="flex gap-x-0.5 md:inline-block md:text-right md:absolute md:top-0 pr-5 md:w-24 md:-left-24 lg:w-44 lg:-left-44">
             <span className="text-sm font-bold">{item.leftHeading}</span>
           </div>
           <div className="text-sm leading-7">{item.details}</div>

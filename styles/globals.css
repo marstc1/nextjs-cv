@@ -7,26 +7,10 @@
     @apply text-gray-700;
   }
 
-  a,
-  a:visited {
-    @apply font-bold text-blue-800;
-  }
-
-  a:active,
-  a:focus,
-  a:hover {
-    @apply text-blue-500 underline outline-none;
-  }
-
   h1 {
     @apply text-5xl;
   }
 
-  h2 {
-    @apply text-3xl py-3 bg-gray-100;
-  }
-
-  h2,
   p {
     @apply mb-4;
   }
@@ -41,11 +25,28 @@
     @apply leading-7;
   }
 
-  li svg.rounded-full {
-    @apply transition-colors duration-500;
+  li:hover svg.timeline-circle {
+    @apply text-blue-500;
   }
 
-  li:hover svg.rounded-full {
-    @apply border-blue-300;
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: lightgray;
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: gray;
   }
 }

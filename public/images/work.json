@@ -1,0 +1,68 @@
+[
+{
+	title: "Barclays Home Insurance",
+	year: "2013",
+	description: "A web application that enabled Barclays customers to purchase Home Insurance.",
+	technologies: ["C#", "Razor", "MVC", ".NET", "HTML", "CSS", "jQuery"],
+},
+{
+	title: "TSB Home Insurance",
+	year: "2016",
+	description: "A web application that enabled TSB customers to purchase Home Insurance.  Traditionally the choice of home insurance is limited to buildings, contents or both however this web application enabled customers to select a number of options to shape their home insurance around their needs.",
+	technologies: ["C#", "Razor", "MVC", ".NET", "HTML", "CSS", "jQuery"],
+},
+{
+	title: "TSB Travel Insurance",
+	year: "2017",
+	description: "A web application that enabled TSB customers to purchase Travel Insurance.",
+	technologies: ["C#", "Razor", "MVC", ".NET", "HTML", "CSS", "jQuery"],
+},
+{
+	title: "Marks and Spencer Home Insurance",
+	year: "2018",
+	description: "A web application that enabled Marks and Spencer customers to purchase Home Insurance.",
+	technologies: ["C#", "Razor", "MVC", ".NET", "HTML", "CSS", "jQuery"],
+},
+{
+	title: "Marks and Spencer Travel Insurance",
+	year: "2018",
+	description: "A web application that enabled Marks and Spencer customers to purchase Home Insurance.",
+	technologies: ["C#", "Razor", "MVC", ".NET", "HTML", "CSS", "jQuery"],
+},
+{
+	title: "HSBC Select and Cover",
+	year: "2019",
+	description: "A web application that enabled HSBC customers to select between 3 and 7 coverers at a fixed price subscription, offering cover for travel, home emergencies, breakdown, excess, mobile phones, gadget and life.",
+	technologies: ["C#", "Razor", "MVC", ".NET", "HTML", "CSS", "jQuery"],
+},
+{
+	title: "Barclays Home Insurance",
+	year: "2019",
+	description: "We gave the Barclays home insurance web application a complete overhaul, refreshing the look and feel inline with thier latest style guides as well as reducing the questions asked during the quote stage to a bare minimum.",
+	technologies: ["C#", "Razor", "MVC", ".NET", "HTML", "CSS", "jQuery"],
+},
+{
+	title: "Santander Home Insurance",
+	year: "2020",
+	description: "A web application that enabled Santander customers to purchase Home Insurance.",
+	technologies: ["React", ".NET Core", "HTML5", "SCSS", "JavaScript"],
+},
+{
+	title: "Aviva Workplace Pensions",
+	year: "2021",
+	description: "A web application that enabled employees of businesses to select Aviva pension products for their retirement.",
+	technologies: ["React", ".NET Core", "HTML5", "SCSS", "JavaScript"],
+},
+{
+	title: "Victoria Hawkins Memorial Netball Tournament",
+	year: "2021",
+	description: "A web site for a charity netball event raising money for Nelsons Journey. This website enabled teams to book a space, pay their entry fee and get information on the days events.",
+	technologies: ["React", "HTML5", "CSS", "JavaScript"],
+},
+{
+	title: "My personal website",
+	year: "2021",
+	description: "A personal website to host my CV and showcase the deliveries that I have worked on and managed over the years.",
+	technologies: ["Next.js", "HTML5", "CSS", "JavaScript"],
+},
+]

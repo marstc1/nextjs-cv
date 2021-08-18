@@ -10,7 +10,9 @@ const Container = ({
 }) => {
   return (
     <Tag
-      className={`container ${padBottom ? "pb-12" : ""} ${className}`.trim()}
+      className={`${
+        padBottom ? "mb-5 pb-5 md:mb-10 md:pb-10" : ""
+      } ${className}`.trim()}
       role={role}
       {...passThroughProps}
     >
