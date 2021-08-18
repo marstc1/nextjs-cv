@@ -40,14 +40,16 @@ class MyDocument extends Document {
         </Head>
         <body className="ml-6 mr-6 sm:ml-12 sm:mr-12">
           <Container className="flex mx-auto pt-5 sm:pt-10 justify-between lg:max-w-screen-xl">
-            <a className="flex align-middle" href="/">
-              <div className="px-3 mr-2 rounded-full bg-blue-500 font-semibold text-white text-center text-3xl font-mono leading-10">
-                C
-              </div>
-              <div className="leading-10">
-                Chris <span className="font-bold">Marston</span>
-              </div>
-            </a>
+            <Link className="flex align-middle" href="/">
+              <a className="flex">
+                <div className="w-10 px-1 mr-2 rounded-full bg-blue-500 font-semibold text-white text-center text-3xl font-mono leading-10">
+                  C
+                </div>
+                <div className="leading-10">
+                  Chris <span className="font-bold">Marston</span>
+                </div>
+              </a>
+            </Link>
 
             <nav className="hidden md:block leading-10">
               <ul className="flex">
