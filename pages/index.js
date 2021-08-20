@@ -8,6 +8,7 @@ import TimelineList from "../components/timelineList/TimelineList";
 import IconList from "../components/iconList/IconList";
 import ButtonLink from "../components/buttonLink/ButtonLink";
 import { Download } from "styled-icons/boxicons-solid";
+import Navbar from "../components/navbar/Navbar";
 
 const { personalInfo, skills, interests, education, experience, contacts } =
   data;
@@ -23,6 +24,7 @@ export default function Home() {
       </Head>
 
       <main>
+        <Navbar />
         <div className="flex justify-center">
           <div className="grid grid-cols-1 lg:grid-cols-12">
             <Container className="col-span-4" padBottom={false}>
@@ -54,10 +56,6 @@ export default function Home() {
                   <ButtonLink href="/chris-marston-cv.pdf" target="_blank">
                     Download CV
                     <Download alt="PDF" className="inline h-5 w-5 ml-2" />
-                  </ButtonLink>
-
-                  <ButtonLink href="#" secondary>
-                    Contact
                   </ButtonLink>
                 </div>
               </Container>

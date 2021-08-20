@@ -9,14 +9,6 @@ const Heading = ({
   isRightAligned = false,
   ...passThroughProps
 }) => {
-  // const composedClassName = `mb-6 ${Tag === tags.h2 ? "rounded-r-full" : ""}
-  // ${
-  //   Tag === tags.h2 && isRightAligned
-  //     ? "lg:rounded-r-none lg:rounded-l-full lg:pl-8"
-  //     : ""
-  // }
-  // ${isBold ? "font-bold" : ""} ${className}`.trim();
-
   const composedClassName = clsx(
     "mb-6",
     { "font-bold": isBold },

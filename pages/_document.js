@@ -1,6 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import Link from "next/link";
 import { Container } from "../components/container/Container";
+import Navbar from "../components/navbar/Navbar";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -39,33 +40,6 @@ class MyDocument extends Document {
           <link rel="manifest" href="/site.webmanifest" />
         </Head>
         <body className="ml-6 mr-6 sm:ml-12 sm:mr-12">
-          <Container className="flex mx-auto pt-5 sm:pt-10 justify-between lg:max-w-screen-xl">
-            <Link className="flex align-middle" href="/">
-              <a className="flex">
-                <div className="w-10 px-1 mr-2 rounded-full bg-blue-500 font-semibold text-white text-center text-3xl font-mono leading-10">
-                  C
-                </div>
-                <div className="leading-10">
-                  Chris <span className="font-bold">Marston</span>
-                </div>
-              </a>
-            </Link>
-
-            <nav className="hidden md:block leading-10">
-              <ul className="flex">
-                <li className="pr-4 font-bold">
-                  <Link href="/">CV</Link>
-                </li>
-                <li className="pr-4">
-                  <Link href="/portfolio">Portfolio</Link>
-                </li>
-                <li>
-                  <a href="#">Contact</a>
-                </li>
-              </ul>
-            </nav>
-          </Container>
-
           <Main />
 
           <Container

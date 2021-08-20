@@ -223,6 +223,37 @@ const data = {
       name: "www.chris-marston.co.uk",
     },
   ],
+  experiencedIn: [
+    {
+      icon: <Applearcade className="inline h-7 w-7 mr-3 text-blue-500" />,
+      name: "GIT",
+    },
+    {
+      icon: <Guitar className="inline h-7 w-7 mr-3 text-blue-500" />,
+      name: "Photoshop",
+    },
+    {
+      icon: <PencilFill className="inline h-7 w-7 mr-3 text-blue-500" />,
+      name: "VS Code, Visual Studio",
+    },
+    {
+      icon: <VolunteerActivism className="inline h-7 w-7 mr-3 text-blue-500" />,
+      name: "Exceed",
+    },
+    {
+      icon: <Footsteps className="inline h-7 w-7 mr-3 text-blue-500" />,
+      name: "Guidewire",
+    },
+    {
+      name: "AWS, Azure Dev Ops",
+    },
+    {
+      name: "Netlify",
+    },
+    {
+      name: "Heroku",
+    },
+  ],
 };
 
 export default data;

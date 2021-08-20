@@ -13,7 +13,7 @@ const TimelineList = ({ listData }) => {
               : ""
           }`}
         >
-          <CircleFill className="absolute -left-3 h-5 w-5 text-white border-2 rounded-full border-blue-500 transition-colors duration-500 timeline-circle" />
+          <CircleFill className="absolute -left-2.5 h-5 w-5 text-blue-500 border-4 rounded-full border-white transition-all duration-500 timeline-circle" />
           <div className="font-bold">{item.rightHeading}</div>
           <div className="text-sm">
             {item.subHeading} {item.notes}
