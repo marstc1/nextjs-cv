@@ -6,25 +6,28 @@ import { Heading } from "../components/heading/Heading";
 import data from "../data/data";
 import TimelineList from "../components/timelineList/TimelineList";
 import IconList from "../components/iconList/IconList";
+import ButtonLink from "../components/buttonLink/ButtonLink";
+import { Download } from "styled-icons/boxicons-solid";
+import Navbar from "../components/navbar/Navbar";
+import { links } from "../data/links";
 
 const { personalInfo, skills, interests, education, experience, contacts } =
   data;
 const { tags } = Heading;
 
-const year = new Date().getFullYear();
-
 export default function Home() {
   return (
-    <div className="mx-auto w-11/12 lg:max-w-screen-lg">
+    <div className="mx-auto lg:max-w-screen-xl">
       <Head>
-        <title>Chris Marston - CV</title>
-        <meta name="description" content="Chris Marston - CV" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>
+          Chris Marston | CV | Lead Software Developer | Javascript React C#
+        </title>
       </Head>
 
       <main>
+        <Navbar links={links} />
         <div className="flex justify-center">
-          <div className="grid grid-cols-1 lg:grid-cols-12 pt-12">
+          <div className="grid grid-cols-1 lg:grid-cols-12">
             <Container className="col-span-4" padBottom={false}>
               <Container tag={Container.tags.header} role="banner">
                 <div className="flex justify-center">
@@ -42,7 +45,6 @@ export default function Home() {
                   className="text-center mt-6"
                   tag={tags.h1}
                   isBold={false}
-                  isUppercase={false}
                 >
                   <span>{personalInfo.firstName.toUpperCase()}</span>
                   <br />
@@ -51,19 +53,11 @@ export default function Home() {
                   </span>
                 </Heading>
 
-                <div className="flex grid grid-cols-1 gap-2 mt-6 mb-1">
-                  <a
-                    className="flex justify-center text-sm"
-                    href="tel:07771348547"
-                  >
-                    07771 348547
-                  </a>
-                  <a
-                    className="flex justify-center text-sm"
-                    href="mailto:christopher.marston@hotmail.co.uk"
-                  >
-                    christopher.marston@hotmail.co.uk
-                  </a>
+                <div className="flex justify-around">
+                  <ButtonLink href="/chris-marston-cv.pdf" target="_blank">
+                    Download CV
+                    <Download alt="PDF" className="inline h-5 w-5 ml-2" />
+                  </ButtonLink>
                 </div>
               </Container>
 
@@ -79,7 +73,7 @@ export default function Home() {
             </Container>
 
             <Container
-              className="lg:row-span-5 lg:col-span-8 lg:pl-8 lg:pb-0 lg:pt-8"
+              className="lg:row-span-5 lg:col-span-8 lg:pl-8 lg:pb-0"
               padBottom={false}
             >
               <Container>
@@ -105,16 +99,6 @@ export default function Home() {
             <Container className="col-span-4" padBottom={false}>
               <Heading tag={tags.h2}>Contact</Heading>
               <IconList listData={contacts} />
-            </Container>
-
-            <Container
-              className="col-span-2 lg:col-span-12 flex justify-center"
-              tag={Container.tags.footer}
-              padBottom={false}
-            >
-              <p className="text-xs mt-28 mb-12">
-                Copyright © {year} - Chris Marston
-              </p>
             </Container>
           </div>
         </div>

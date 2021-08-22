@@ -6,8 +6,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
-      blue: colors.sky,
+      blue: colors.teal,
       gray: colors.gray,
+      white: colors.white,
+      transparent: colors.transparent,
     },
     extend: {
       fontFamily: {
@@ -16,7 +18,10 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      rotate: ["group-hover"],
+      scale: ["group-hover"],
+    },
   },
   plugins: [],
 };

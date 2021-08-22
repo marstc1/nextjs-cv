@@ -210,21 +210,48 @@ const data = {
     {
       id: "telephone",
       icon: <TelephoneFill className="inline h-7 w-7 mr-3 text-blue-500" />,
-      name: <a href="tel:07771348547">07771 348547</a>,
+      name: "07771 348547",
     },
     {
       id: "email",
       icon: <Mail className="inline h-7 w-7 mr-3 text-blue-500" />,
-      name: (
-        <a href="mailto:christopher.marston@hotmail.co.uk">
-          christopher.marston@hotmail.co.uk
-        </a>
-      ),
+      name: "christopher.marston@hotmail.co.uk",
     },
     {
       id: "website",
       icon: <Globe className="inline h-7 w-7 mr-3 text-blue-500" />,
-      name: <Link href="/">www.chris-marston.co.uk</Link>,
+      name: "www.chris-marston.co.uk",
+    },
+  ],
+  experiencedIn: [
+    {
+      icon: <Applearcade className="inline h-7 w-7 mr-3 text-blue-500" />,
+      name: "GIT",
+    },
+    {
+      icon: <Guitar className="inline h-7 w-7 mr-3 text-blue-500" />,
+      name: "Photoshop",
+    },
+    {
+      icon: <PencilFill className="inline h-7 w-7 mr-3 text-blue-500" />,
+      name: "VS Code, Visual Studio",
+    },
+    {
+      icon: <VolunteerActivism className="inline h-7 w-7 mr-3 text-blue-500" />,
+      name: "Exceed",
+    },
+    {
+      icon: <Footsteps className="inline h-7 w-7 mr-3 text-blue-500" />,
+      name: "Guidewire",
+    },
+    {
+      name: "AWS, Azure Dev Ops",
+    },
+    {
+      name: "Netlify",
+    },
+    {
+      name: "Heroku",
     },
   ],
 };

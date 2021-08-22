@@ -3,7 +3,7 @@ import UnorderedList from "../unorderedList/UnorderedList";
 
 const IconList = ({ className = "", listData }) => {
   return (
-    <UnorderedList className={`grid grid-cols-1 gap-y-7 ${className}`.trim()}>
+    <UnorderedList className={`grid grid-cols-1 gap-y-9 ${className}`.trim()}>
       {listData.map((item) => (
         <li
           className={
