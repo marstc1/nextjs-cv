@@ -2,9 +2,8 @@ import clsx from "clsx";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import { useNavbarContext } from "../context";
-import { links } from "../links";
 
-const NavMenu = ({ className }) => {
+const NavMenu = ({ className, links }) => {
   const router = useRouter();
   const { isVisible, setIsVisible } = useNavbarContext();
 
@@ -26,6 +25,9 @@ const NavMenu = ({ className }) => {
       "font-semibold",
       "leading-10",
       "mx-3",
+      "py-3",
+      "text-xl",
+      "md:text-sm",
       "md:inline-block",
       { "text-blue-700": router.pathname === href }
     );
