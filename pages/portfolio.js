@@ -1,16 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
-import Head from "next/head";
-import { Heading } from "../components/heading/Heading";
-import IconList from "../components/iconList/IconList";
-import Navbar from "../components/navbar/Navbar";
-import { links } from "../data/links";
+import Head from 'next/head';
+
+import { Heading } from '../components/heading/Heading';
+import Navbar from '../components/navbar/Navbar';
+import { links } from '../data/links';
 import {
   experiencedIn,
   frameworks,
   languages,
   tools,
   work,
-} from "../data/portfolio";
+} from '../data/portfolio';
 
 function Portfolio() {
   return (
@@ -64,14 +64,6 @@ function Portfolio() {
                       />
                     )}
                     <p className="col-span-10 mt-2">{item.description}</p>
-                    <p className="col-span-10 text-sm text-gray-500">
-                      {item.technologies.map((skill) =>
-                        skill !==
-                        item.technologies[item.technologies.length - 1]
-                          ? `${skill}, `
-                          : `${skill}`
-                      )}
-                    </p>
                   </div>
                 ))}
               </div>
